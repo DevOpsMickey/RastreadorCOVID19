@@ -10,11 +10,11 @@ import com.android.volley.toolbox.JsonArrayRequest
 import com.android.volley.toolbox.Volley
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONException
-import java.text.DecimalFormat
 
 class MainActivity : AppCompatActivity() {
     var adaptadorPaises:PaisAdapter?=null
     var listaPaises:ArrayList<Pais>?=null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
